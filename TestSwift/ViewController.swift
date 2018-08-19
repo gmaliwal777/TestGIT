@@ -1,7 +1,7 @@
 //
 //  ViewController.swift
 //  TestSwift
-//
+//  Going to modify.
 //  Created by Macmini on 7/21/18.
 //  Copyright © 2018 Macmini. All rights reserved.
 //
