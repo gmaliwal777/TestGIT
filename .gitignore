@@ -7,5 +7,9 @@
 # ignore user state file.
 *.xcuserstate
 
+# ignore Carthage build and checkouts
+Pods/
 
+# ignore Carthage
+Carthage/
 
