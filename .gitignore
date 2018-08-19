@@ -3,3 +3,9 @@
 
 # ignore breakpoint
 *.xcbkptlist
+
+# ignore user state file.
+*.xcuserstate
+
+
+
