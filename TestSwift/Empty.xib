@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16G1114" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="OgX-MT-jNW">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="V1p-GW-2f2">
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="V1p-GW-2f2" secondAttribute="height" multiplier="1:1" id="tfQ-Z0-ui5"/>
+                    </constraints>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5ki-33-JG7">
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z4G-Ob-3HF">
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="70" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33e-CN-FH7">
+                    <color key="backgroundColor" red="0.17349431670000001" green="1" blue="0.31564654279999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="Login"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Z4G-Ob-3HF" firstAttribute="trailing" secondItem="OgX-MT-jNW" secondAttribute="centerX" multiplier="310:160" id="2q0-br-rPY"/>
+                <constraint firstItem="5ki-33-JG7" firstAttribute="trailing" secondItem="OgX-MT-jNW" secondAttribute="centerX" multiplier="310:160" id="AGz-iy-4Vx"/>
+                <constraint firstItem="5ki-33-JG7" firstAttribute="height" secondItem="OgX-MT-jNW" secondAttribute="width" multiplier="30:320" id="DFm-qU-zgE"/>
+                <constraint firstItem="Z4G-Ob-3HF" firstAttribute="leading" secondItem="OgX-MT-jNW" secondAttribute="centerX" multiplier="10:160" id="DZo-3Q-pt0"/>
+                <constraint firstItem="Z4G-Ob-3HF" firstAttribute="height" secondItem="OgX-MT-jNW" secondAttribute="width" multiplier="30:320" id="Da1-4v-tFA"/>
+                <constraint firstItem="V1p-GW-2f2" firstAttribute="top" secondItem="OgX-MT-jNW" secondAttribute="centerY" multiplier="30:284" id="KM6-vL-BWA"/>
+                <constraint firstItem="Z4G-Ob-3HF" firstAttribute="top" secondItem="5ki-33-JG7" secondAttribute="bottom" multiplier="210:190" id="Y14-V9-4G9"/>
+                <constraint firstItem="V1p-GW-2f2" firstAttribute="centerX" secondItem="OgX-MT-jNW" secondAttribute="centerX" id="YfB-AM-Z4P"/>
+                <constraint firstItem="33e-CN-FH7" firstAttribute="top" secondItem="Z4G-Ob-3HF" secondAttribute="bottom" multiplier="270:240" id="dbB-9A-lTj"/>
+                <constraint firstItem="33e-CN-FH7" firstAttribute="centerX" secondItem="OgX-MT-jNW" secondAttribute="centerX" id="hvk-9t-Mvu"/>
+                <constraint firstItem="5ki-33-JG7" firstAttribute="top" secondItem="V1p-GW-2f2" secondAttribute="bottom" multiplier="160:130" id="k7E-eX-WrH"/>
+                <constraint firstItem="V1p-GW-2f2" firstAttribute="width" secondItem="OgX-MT-jNW" secondAttribute="width" multiplier="100:320" id="plw-L0-845"/>
+                <constraint firstItem="5ki-33-JG7" firstAttribute="leading" secondItem="OgX-MT-jNW" secondAttribute="centerX" multiplier="10:160" id="sPY-0P-ag5"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-117" y="-209"/>
+        </view>
+    </objects>
+</document>

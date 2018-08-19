@@ -12,6 +12,7 @@
 		9A57C87E210357FF00DEC89A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A57C87C210357FF00DEC89A /* Main.storyboard */; };
 		9A57C880210357FF00DEC89A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A57C87F210357FF00DEC89A /* Assets.xcassets */; };
 		9A57C883210357FF00DEC89A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A57C881210357FF00DEC89A /* LaunchScreen.storyboard */; };
+		9ADBE61B2123FCE700CECEFB /* Empty.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ADBE61A2123FCE700CECEFB /* Empty.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9A57C87F210357FF00DEC89A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A57C882210357FF00DEC89A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A57C884210357FF00DEC89A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ADBE61A2123FCE700CECEFB /* Empty.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Empty.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			children = (
 				9A57C877210357FF00DEC89A /* TestSwift */,
 				9A57C876210357FF00DEC89A /* Products */,
+				C3B700FEA812159016941945 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +57,38 @@
 		9A57C877210357FF00DEC89A /* TestSwift */ = {
 			isa = PBXGroup;
 			children = (
+				9A871E5E2129767800949D78 /* Managers */,
+				9A871E5F2129767800949D78 /* Models */,
 				9A57C878210357FF00DEC89A /* AppDelegate.swift */,
 				9A57C87A210357FF00DEC89A /* ViewController.swift */,
 				9A57C87C210357FF00DEC89A /* Main.storyboard */,
 				9A57C87F210357FF00DEC89A /* Assets.xcassets */,
 				9A57C881210357FF00DEC89A /* LaunchScreen.storyboard */,
+				9ADBE61A2123FCE700CECEFB /* Empty.xib */,
 				9A57C884210357FF00DEC89A /* Info.plist */,
 			);
 			path = TestSwift;
+			sourceTree = "<group>";
+		};
+		9A871E5E2129767800949D78 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		9A871E5F2129767800949D78 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C3B700FEA812159016941945 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A57C883210357FF00DEC89A /* LaunchScreen.storyboard in Resources */,
+				9ADBE61B2123FCE700CECEFB /* Empty.xib in Resources */,
 				9A57C880210357FF00DEC89A /* Assets.xcassets in Resources */,
 				9A57C87E210357FF00DEC89A /* Main.storyboard in Resources */,
 			);
@@ -297,6 +325,7 @@
 				9A57C889210357FF00DEC89A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
